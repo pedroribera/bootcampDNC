@@ -4,26 +4,87 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
     <title>Bootcamp DNC</title>
+    <link href="style.css" rel="stylesheet">
 </head>
 <body>
-    <div class="container" id="menu">
-        <div></div>
-        <div></div>
+    <div class="container" id="header">
+        <nav id="menu">
+            <a href="">Home</a>
+            <a href="">Ultimas Edições</a>
+            <a href="">Requisitos para Participar</a>
+        </nav>
+        <nav id="button">
+            <button>Login</button>
+        </nav>
     </div>
-    <div id="header">
-
+    <div id="text">
+        <h1>BOOTCAMP DNC</h1>
+        <p>Esse será um evento exclusico para todos os alunos<br>
+         da <b>DNC</b>, que querem <b>acelerar a carreira</b> com uma<br>
+         semana intensiva de conteúdo de mercado entre<br>
+         <b>BACK-END, FRONT-END & BANCO DE DADOS.</b></p>
     </div>
     <div id="form">
-
+        <form action="" method="POST">
+            <p>
+                <label>Nome:</label><br>
+                <input type="text" placeholder="Digite seu nome aqui" name="nomeUser">
+            </p>
+            <p>
+                <label>Sobrenome:</label><br>
+                <input type="text" placeholder="Digite seu sobrenome aqui" name="nomeUser">
+            </p>
+            <label>Área de Interesse:</label><br>
+            <ul>
+                <li><input type="checkbox" name="frontEnd" value="Sim">Front-End</li>
+                <li><input type="checkbox" name="backEnd" value="Sim">Back-End</li>
+                <li><input type="checkbox" name="dataBase" value="Sim">Banco de Dados</li>
+            </ul>
+            <p>
+                <label>E-mail:</label><br>
+                <input type="text" placeholder="Digite seu e-mail aqui" name="emailUser">
+            </p>
+            <p>
+                <label>Telefone:</label><br>
+                <input type="text" placeholder="Seu número aqui" name="numberUser">
+            </p>
+            <p>
+                <label>Insira uma frase criativa aqui:</label><br>
+                <input type="text" placeholder="Digite seu e-mail aqui" name="phraselUser"><br>
+            </p>
+            <button>Login</button>
+        </form>
     </div>
     <div class="container" id="bottomMenu">
-        <div></div>
-        <div></div>
-        <div></div>
+        <nav id="school">
+            <h2>Escolas</h2>
+            <ul>
+                <li><a href="">Formação em Tecnologia</a></li>
+                <li><a href="">Formação em Marketing</a></li>
+                <li><a href="">Formação em Dados</a></li>
+                <li><a href="">Formação em Projetos</a></li>
+                <li><a href="">Formação em Produto</a></li>
+            </ul>
+        </nav>
+        <nav id="about">
+            <h2>Sobre a DNC</h2>
+            <ul>
+                <li><a href="">História</a></li>
+                <li><a href="">Missão e valores</a></li>
+                <li><a href="">Trabalhe Conosco</a></li>
+                <li><a href="">Conteúdo Gratuíto</a></li>
+            </ul>
+        </nav>
+        <div id="adress">
+            <p>Endereço</p>
+        </div>
     </div>
     <div id="bottomPolicy">
-
+    
     </div>
 </body>
 </html>
